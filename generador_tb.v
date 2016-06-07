@@ -12,11 +12,11 @@ module generador_tb;
 		
 	always @(posedge CLK_100MHZ) begin
 		if (i == 360) begin
-		$write("Simulation has finished");
-		$stop;
+			$write("Simulation has finished");
+			$stop;
 		end
 		i = i+1;
-		end
+ end
 		
 		
 
